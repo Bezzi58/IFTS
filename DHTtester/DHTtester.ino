@@ -34,9 +34,9 @@ void setup() {
   //Serial.println(F("DHTxx test!"));
 
   dht.begin();
-  Serial.print(F("Humidity\t"))};
-  Serial.print(F("Temperature\t"))};
-  Serial.println(F("Heat_index"))};
+  Serial.print(F("Humidity\t"));
+  Serial.print(F("Temperature\t"));
+  Serial.println(F("Heat_index"));
 }
 
 void loop() {
