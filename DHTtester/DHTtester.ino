@@ -70,7 +70,7 @@ void loop() {
   //Serial.print(F("°C "));
   //Serial.print(f);
   //Serial.print(F("°F  Heat index: "));
-  Serial.print(hic);
+  Serial.println(hic);
   //Serial.print(F("°C "));
   //Serial.println(F("°F"));
 }
