@@ -14,9 +14,9 @@ void loop() {
   // put your main code here, to run repeatedly:
   if (Serial.available()) {
     unsigned char comando = Serial.read();
-    if ('2' == comando) { 
+    if ('2' == comando) {
       digitalWrite(LED_BUILTIN, HIGH);
-      Serial.println("blink");
+      Serial.println("lampeggio");
       Serial.println("led acesso");
 
       delay(500);
