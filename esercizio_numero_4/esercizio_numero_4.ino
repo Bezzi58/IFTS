@@ -11,5 +11,5 @@ void loop() {
   y = (x - 1 + x - 2);
   Serial.println(x);
   Serial.println(y);
-  delay (25000);
+  delay (2000);
 }

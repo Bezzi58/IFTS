@@ -11,10 +11,10 @@ void loop() {
   x = random(0, 100);
   y = random(0, 100);
   
-  if ( x / 3 -  ) {
+  if ( x / 3 ) {
     Serial.print(x);
     Serial.println(x);
-  } else if ( y / 3) {
+  } else if ( y /3) {
     Serial.print(y);
     Serial.println(y);
   }
