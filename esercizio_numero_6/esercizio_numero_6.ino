@@ -1,28 +1,16 @@
-int x;
-int y;
-int z;
-int a;
-int b;
+int n;
+int c;
 void setup() {
   Serial.begin(9600);
+  randomSeed(analogRead(0)); 
 
 }
 
 
 void loop() {
-  x = 5;
-  y = 2;
-  z = 4;
-  a = 1;
-  b = 3;
-  if (y < x) {
-    Serial.println(y);
-  } else if (z < x) {
-    Serial.println(z);
-  } else if (a < x) {
-    Serial.println(a);
-  } else if (b < x) {
-    Serial.println(b)
+ n = random (0, 50);
+  for (c = 0; c<n; c+=2) {
+    Serial.println(c);
   }
     delay (5000);
 }
