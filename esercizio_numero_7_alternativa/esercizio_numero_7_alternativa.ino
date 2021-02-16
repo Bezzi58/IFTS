@@ -1,7 +1,6 @@
-float m;
 int n;
-int s;
 int c;
+int max;
 void setup() {
   Serial.begin(9600);
   randomSeed(analogRead(0));
@@ -9,12 +8,12 @@ void setup() {
 
 
 void loop() {
-  s = 0;
+  max = 0;
   for ( c = 0; c < 10; c++) {
-    n = random (0, 15);
-    s += n;
+    n = random (0, 50);
+  } if (max < n) {
+    max = n;
   }
-  m = s / 10;
-  Serial.println(m);
+  Serial.println(max);
   delay (5000);
 }
